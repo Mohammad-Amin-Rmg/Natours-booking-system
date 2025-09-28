@@ -10,7 +10,7 @@ const tourSchema = new Schema({
   name: {
     type: String,
     required: [true, 'A tour must have a name'],
-    uniqe: true,
+    unique: true,
   },
   rating: {
     type: Number,
